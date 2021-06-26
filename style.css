@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Benne", serif;
+}
+
+body {
+  background-color: #5d6a6f;
+}
+
+#background1 {
+  width: 40vw;
+  height: 25vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 0px 40px 30px;
+  background-color: #bccfd2;
+}
+#background2 {
+  width: 40vw;
+  height: 25vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  border-radius: 0px 40px 10px;
+  background-color: #515d62;
+}
+
+#main-container {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  overflow: hidden;
+  margin: 40px 25px;
+  border-radius: 2.5%;
+  background-color: #0c1013;
+  position: relative;
+}
+
+#nav-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  width: 100%;
+  cursor: pointer;
+}
+
+.title-and-logo {
+  position: relative;
+}
+.logo1 {
+  position: absolute;
+  top: 29.5px;
+  left: 27px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ffff;
+}
+
+.logo2 {
+  position: absolute;
+  top: 29.5px;
+  left: 41px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ffff;
+}
+
+.title {
+  position: absolute;
+  top: 0;
+  left: 65px;
+  margin-top: 25px;
+  font-weight: lighter;
+  opacity: 0.7;
+  font-size: 30px;
+}
+
+.tickets-messages-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  margin-top: 10px;
+}
+.tickets {
+  margin-right: 30px;
+  opacity: 0.3;
+}
+.messages {
+  margin-right: 30px;
+  font-weight: normal;
+}
+
+.nav-profile-img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.general-content {
+  position: absolute;
+  bottom: 0;
+  background-color: #1b1f25;
+  width: 95%;
+  height: 88%;
+  border-top-right-radius: 2.5%;
+  border-top-left-radius: 2.5%;
+}
+.matches-section {
+  position: absolute;
+  background-color: #161a1e;
+  width: 30%;
+  height: 100%;
+  border-top-left-radius: 3%;
+  color: white;
+}
+
+.match {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 40%;
+}
+
+i {
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.profile-gallery {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.match-images {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top: 0px;
+}
+
+.match-name {
+  margin-top: 13px;
+ margin-bottom: 0px;
+ margin-right: 10px;
+}
+
+.message-center {
+  position: absolute;
+  top: 0;
+  right: 28%;
+  background-color: #657277;
+  width: 42%;
+  height: 100%;
+}
+.profile-center {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #161a1e;
+  width: 30%;
+  height: 100%;
+  border-top-right-radius: 3%;
+}
