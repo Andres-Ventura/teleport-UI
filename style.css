@@ -135,8 +135,11 @@ body {
 }
 
 i {
+  position: absolute;
   opacity: 0.4;
   cursor: pointer;
+  top: 3.5%;
+  right: 10%;
 }
 
 .profile-gallery {
@@ -157,6 +160,19 @@ i {
   margin-top: 13px;
  margin-bottom: 0px;
  margin-right: 10px;
+}
+
+.profile-messages{
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.profile-img{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .message-center {
