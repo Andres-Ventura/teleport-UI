@@ -152,27 +152,35 @@ i {
   height: 40px;
   object-fit: cover;
   border-radius: 50%;
-  margin-right: 10px;
+  margin-right: 15px;
   margin-top: 0px;
 }
 
-.match-name {
-  margin-top: 13px;
- margin-bottom: 0px;
- margin-right: 10px;
-}
+ h4, .match-name {
+  font-size: 12px;
+  margin-top: 5px;
+  margin-left: 5px;
+  font-weight: lighter;
+  opacity: 0.8;
+} 
 
-.profile-messages{
-  display: flex;
-  flex-direction: column;
-  overflow-y: scroll;
-}
 
 .profile-img{
   width: 40px;
   height: 40px;
   object-fit: cover;
   border-radius: 50%;
+  margin-left: 3%;
+}
+
+.profile-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-name{
+  font-size: 20px;
+  margin-left: 10px;
 }
 
 .message-center {
